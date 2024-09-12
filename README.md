@@ -1,5 +1,7 @@
 # IzehFont
 
+!IzehFont Logo
+
 IzehFont is a VSCode extension designed to streamline web development by integrating Font Awesome icons into your workflow. This extension provides a rich set of snippets and auto-completion features for using Font Awesome icons in your HTML and CSS files.
 
 ## Features
@@ -18,6 +20,11 @@ To install the IzehFont extension:
 4. Click `Install` to add the extension to your VSCode setup.
 
 ## Usage
+First of all you need import following link **faLink** in head of your .html file, or Type: **html-** in an empty .html file:
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+- **faLink**: FontAwesome Link.
+- **html-**: a basic html file with links and some examples.
 - **fa**: Basic FontAwesome icon snippet.
 - **facoffee**: Insert the FontAwesome coffee icon.
 - **fauser**: Insert the FontAwesome user icon.
